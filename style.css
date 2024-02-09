@@ -115,7 +115,35 @@ font-size: 12px;
 
 }
 
-/*trying to understand how to make it  responsive I'll make an update later    */
+/*this is the best i can do right now i'am still learning about responsive and I'll be thankfull for yout feedback */
+
+@media (max-width: 635px) {
+
+  .maincard{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+}
+  .card-img img{
+    max-height: 340px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 16px;
+}
+  .btn{  
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.card-content h4, h1, p{
+padding:0px;
+}
+
+}
+
 
 
 img{
